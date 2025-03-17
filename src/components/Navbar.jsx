@@ -1,5 +1,6 @@
 import styles from "../styles/Navbar.module.css"
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 
 export default function Navbar() {
@@ -11,22 +12,22 @@ export default function Navbar() {
             </div>
                 <ul className={styles.navLinks}>
                     <li>
-                        <a href="#" data-page="home" className={styles.active}>Accueil</a>
+                        <Link to="/" data-page="home" className={styles.active}>Accueil</Link>
                     </li>
                     <li>
-                        <a href="#" data-page="movies">Films</a>
+                        <Link to="/" data-page="movies">Films</Link>
                     </li>
                     <li className={styles.authRequired} style={{display: "none"}}>
-                        <a href="#" data-page="add-movie">Ajouter</a>
+                        <Link to="/" data-page="add-movie">Ajouter</Link>
                     </li>
                     <li className={styles.guestOnly} style={{display: "block"}}>
-                        <a href="#" data-page="login">Connexion</a>
+                        <Link to="/login" data-page="login">Connexion</Link>
                     </li>
                     <li className={styles.guestOnly} style={{display: "block"}}>
-                        <a href="#" data-page="register">Inscription</a>
+                        <Link to="/register" data-page="register">Inscription</Link>
                     </li>
                     <li className={styles.authRequired} style={{display: "none"}}>
-                        <a href="#" id="logout">Déconnexion</a>
+                        <Link to="/" id="logout">Déconnexion</Link>
                     </li>
                 </ul>
             </nav>
