@@ -144,7 +144,7 @@ button:hover {
   color: #16a34a;
 }
 
-.home-page {
+/* .home-page {
   max-width: 800px;
   margin: 2rem auto;
   padding: 2rem;
@@ -152,8 +152,8 @@ button:hover {
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
-}
-
+} */
+/* 
 .home-page h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
@@ -181,7 +181,7 @@ button:hover {
 .home-page ul li {
   font-size: 1rem;
   margin: 0.5rem 0;
-}
+} */
 
 /* Styles pour le template Movies */
 .movies-page {
