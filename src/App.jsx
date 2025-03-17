@@ -1,16 +1,16 @@
 import './App.css'
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Footer from './components/Footer'
+import HomePage from './pages/HomePage/HomePage'
 
 function App() {
 
   return (
+    <>
       <div>
           <Navbar/>
-          <Hero/>
-          <Footer/>
       </div>
+      <HomePage/>
+      </>
   )
 }
 
