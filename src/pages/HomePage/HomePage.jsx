@@ -1,6 +1,5 @@
 import styles from "./HomePage.module.css"
 import Hero from '../../components/Hero'
-import Footer from '../../components/Footer'
 
 export default function HomePage() {
     return (
@@ -8,7 +7,7 @@ export default function HomePage() {
             <main>
                 <Hero />
             </main>
-            <Footer />
+            
         </>
     );
   }
